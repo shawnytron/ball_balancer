@@ -1,0 +1,103 @@
+{
+  "beam_length_mm": 168,
+  "rail_length_mm": 205,
+  "ball_diameter_mm": 40,
+  "geometry": {
+    "left_px": [
+      93,
+      218
+    ],
+    "pivot_px": [
+      321,
+      220
+    ],
+    "right_px": [
+      549,
+      219
+    ]
+  },
+  "ball_hsv_lower": [
+    0,
+    8,
+    60
+  ],
+  "ball_hsv_upper": [
+    48,
+    255,
+    255
+  ],
+  "ball_radius_px": [
+    35,
+    85
+  ],
+  "beam_roi_half_width_px": 50,
+  "sensor_positions_mm": [
+    -84,
+    -60,
+    -36,
+    -12,
+    12,
+    36,
+    60,
+    84
+  ],
+  "sensor_baseline": [
+    19,
+    18,
+    15,
+    15,
+    16,
+    19,
+    21,
+    62
+  ],
+  "sensor_shadow_polarity": 1,
+  "setpoint_mm": 0.0,
+  "servo_neutral_deg": 46,
+  "servo_calibrated": true,
+  "servo_min_deg": 5,
+  "servo_max_deg": 85,
+  "servo_sign": -1,
+  "servo_deg_per_beam_deg": 2.775,
+  "max_beam_tilt_deg": 8,
+  "kp_beam_deg_per_mm": 0.047,
+  "kd_beam_deg_per_mm_s": 0.0372,
+  "ball_pale_mode": true,
+  "beam_end_margin_mm": 5,
+  "sensor_full_cover": [
+    974,
+    970,
+    956,
+    967,
+    965,
+    973,
+    975,
+    994
+  ],
+  "photo_deadband": 0.08,
+  "photo_min_peak": 0.2,
+  "photo_weight_power": 1.0,
+  "fusion_camera_weight": 1.0,
+  "fusion_photo_weight": 1.0,
+  "fusion_agreement_mm": 6.0,
+  "fusion_reject_mm": 24.0,
+  "sensor_noise_adc": [
+    1.48,
+    1.48,
+    1.48,
+    1.48,
+    1.48,
+    4.45,
+    4.45,
+    26.69
+  ],
+  "ki_beam_deg_per_mm_s": 0.0036,
+  "integral_limit_beam_deg": 2.0,
+  "derivative_filter_tau_s": 0.08,
+  "max_servo_rate_deg_s": 300.0,
+  "loss_hold_s": 0.1,
+  "loss_return_rate_deg_s": 25.0,
+  "reacquire_stable_s": 0.06,
+  "setpoint_margin_mm": 2.0,
+  "position_deadband_mm": 0.5
+}
